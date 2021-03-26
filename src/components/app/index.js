@@ -26,10 +26,10 @@ export default class App extends React.Component {
     victory: false
   }
 
-  isVictory = (player, vicArr) => {
+  setVictory = (player, newArr) => {
     let playerArr = [],
       vic = false;
-    vicArr.forEach((item, id)=>{
+    newArr.forEach((item, id)=>{
       if (item === player){
         playerArr.push(id.toString());
       }
@@ -50,7 +50,7 @@ export default class App extends React.Component {
       }
     })
 
-    if (playerArr.length > 4 && !this.state.victory){
+    if (playerArr.length > 4 && !vic){
       this.whoVic = 'Никто не';
       vic = true;
       this.setState({victory: vic});
@@ -95,7 +95,7 @@ export default class App extends React.Component {
       let newArr = [...itemsArr.slice(0, id), player, ...itemsArr.slice(id + 1)];
       this.setState({itemsArr: newArr})
 
-      this.isVictory(player, newArr);
+      this.setVictory(player, newArr);
     } else {
       console.log('block');
     }
