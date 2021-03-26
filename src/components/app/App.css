@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+.cell-box{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto 0;
+  box-shadow: 1px 1px 50px rgb(37, 35, 35);
+}
+.cell{
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  background-color: #d6c7cf;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 100px;
+  font-weight: 600;
+  color: #1f1e1e;
+  transition: all .15s ease;
+  outline: none;
+}
+.cell:hover{
+  z-index: 10;
+  background-color: #d4577f;
+  box-shadow: 1px 1px 50px #beee20;
+}

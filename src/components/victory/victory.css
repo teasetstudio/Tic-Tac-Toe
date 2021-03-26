@@ -1,0 +1,29 @@
+.victory{
+    position: absolute;
+    top: -80%;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: rgb(218, 53, 103);
+    padding: 40px 80px;
+    font-size: 25px;
+    opacity: .93;
+    border-radius: 10px;
+    animation: 6s topToBot ease-in-out;
+    z-index: 100;
+}
+.hewin{
+    font-size: 50px;
+}
+.victory p {
+    padding: 0;
+    margin: 0;
+}
+.victory span{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(150, 214, 32);
+}
+@keyframes topToBot {
+    10% {top: 1%;}
+    90% {top: 1%;}
+}

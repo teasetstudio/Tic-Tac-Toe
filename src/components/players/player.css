@@ -1,0 +1,43 @@
+.block{
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.score{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #a19f94;
+    text-shadow: 2px 2px 4px #4e4c34;
+    letter-spacing: 10px;
+}
+.pl{
+    margin: 20px 0 40px;
+}
+.pl span{
+    padding: 0 40px 20px;
+    border: 3px solid rgb(130, 58, 224);
+    background-color: #ece1e9;
+    border-radius: 10px;
+    width: 100%;
+    transition: all .2s ease;
+}
+.pl .stop{
+    background-color: #8f5d7f;
+
+}
+.o .o {
+    padding: 0 100px 20px;
+    background-color: #c23695;
+    box-shadow: 3px 3px 50px #3b3b3a;
+    color: #4dc2ae;
+}
+.x .x {
+    padding: 0 100px 20px;
+    background-color: #31cece;
+    box-shadow: 3px 3px 50px #3b3b3a;
+    color: #c23695;
+}
