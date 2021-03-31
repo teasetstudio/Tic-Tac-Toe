@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Follow the link below to check this this project out
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project hosted on [Vercel](https://tic-tac-toe-nine-weld.vercel.app).
 
 ## Available Scripts
 
