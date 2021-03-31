@@ -1,6 +1,8 @@
 # Follow the link below to check this this project out
 
-This project hosted on [Vercel](https://tic-tac-toe-nine-weld.vercel.app).
+This [PROJECT](https://tic-tac-toe-nine-weld.vercel.app) hosted on Vercel.
+
+This is project created by create-react-app.
 
 ## Available Scripts
 
