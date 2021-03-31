@@ -1,4 +1,4 @@
-# Follow the link below to check this this project out
+# Follow the link below
 
 This [PROJECT](https://tic-tac-toe-nine-weld.vercel.app) hosted on Vercel.
 
